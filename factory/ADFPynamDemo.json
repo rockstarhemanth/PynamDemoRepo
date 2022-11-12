@@ -1,0 +1,9 @@
+{
+	"name": "ADFPynamDemo",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a322b186-443a-4ba0-86e3-9e3047eaf69f",
+		"tenantId": "189dc61c-769b-4048-8b0f-6de074bba26c"
+	}
+}
