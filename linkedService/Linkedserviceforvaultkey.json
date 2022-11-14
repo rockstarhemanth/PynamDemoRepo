@@ -1,0 +1,18 @@
+{
+	"name": "Linkedserviceforvaultkey",
+	"properties": {
+		"description": "linked service for vault key blob storage",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "linkedserviceforkeyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "secret-pynamdemo"
+			}
+		}
+	}
+}
